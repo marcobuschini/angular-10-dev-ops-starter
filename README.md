@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.org/marcobuschini/angular-9-dev-ops-starter.svg?branch=master)](https://travis-ci.org/marcobuschini/angular-9-dev-ops-starter)
-[![Coverage Status](https://coveralls.io/repos/github/marcobuschini/angular-9-dev-ops-starter/badge.svg)](https://coveralls.io/github/marcobuschini/angular-9-dev-ops-starter)
-[![Maintainability](https://api.codeclimate.com/v1/badges/4b96bc259d02ed579782/maintainability)](https://codeclimate.com/github/marcobuschini/angular-9-dev-ops-starter/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/4b96bc259d02ed579782/test_coverage)](https://codeclimate.com/github/marcobuschini/angular-9-dev-ops-starter/test_coverage)
+[![Build Status](https://travis-ci.org/marcobuschini/angular-9-dev-ops-starter.svg?branch=master)](https://travis-ci.org/marcobuschini/angular-10-dev-ops-starter)
+[![Coverage Status](https://coveralls.io/repos/github/marcobuschini/angular-9-dev-ops-starter/badge.svg)](https://coveralls.io/github/marcobuschini/angular-10-dev-ops-starter)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b1a0a96ef911c6f030c8/maintainability)](https://codeclimate.com/github/marcobuschini/angular-10-dev-ops-starter/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/b1a0a96ef911c6f030c8/test_coverage)](https://codeclimate.com/github/marcobuschini/angular-10-dev-ops-starter/test_coverage)
 [![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen)](http://commitizen.github.io/cz-cli/)
 
 # Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.1.
 
 ## Development server
 

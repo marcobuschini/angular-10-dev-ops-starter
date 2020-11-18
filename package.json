@@ -2,6 +2,12 @@
   "name": "frontend",
   "version": "0.0.0",
   "main": "main.js",
+  "build": {
+    "appId": "marcobuschini.test.app",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +15,8 @@
     "start:electron:prod": "ng build --prod --base-href ./ && electron .",
     "build": "ng build",
     "build:prod": "ng build --prod",
+    "electron:pack": "ng build --base-href ./ && electron-builder  --dir",
+    "electron:dist": "ng build --base-href ./ && electron-builder",
     "test": "ng test --coverage",
     "test:ci": "ng test --coverage --coverageReporters lcovonly",
     "lint": "ng lint",
@@ -47,6 +55,7 @@
     "cypress": "^4.6.0",
     "cz-conventional-changelog": "^3.1.0",
     "electron": "^11.0.1",
+    "electron-builder": "^22.9.1",
     "husky": "^4.2.5",
     "jest": "^24.9.0",
     "jest-html-reporter": "^2.8.2",

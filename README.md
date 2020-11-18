@@ -33,3 +33,7 @@ Run `npm run cy:open` to open the interactive Cypress dashboard or `npm run cy:r
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Electron
+
+Instructions used to install Electron come from https://www.sitepoint.com/build-a-desktop-application-with-electron-and-angular/

@@ -1,6 +1,7 @@
 const { app, BrowserWindow } = require('electron')
 const url = require('url')
 const path = require('path')
+const fs = require('fs')
 
 let mainWindow
 
@@ -22,6 +23,16 @@ function createWindow() {
   )
   // Open the DevTools.
   mainWindow.webContents.openDevTools()
+
+  const configJson = fs.readFileSync(
+    path.join(__dirname, '/dist/frontend/config/config.json')
+  )
+  const config = JSON.parse(configJson)
+  Object.keys(config).forEach(key => {
+    mainWindow.webContents.executeJavaScript(
+      'localStorage.setItem("' + key + '", "' + config[key] + '")'
+    )
+  })
 
   mainWindow.on('closed', function() {
     mainWindow = null

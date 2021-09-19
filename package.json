@@ -11,7 +11,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start:electron": "ng build --base-href ./ && electron .",
+    "start:electron": "ng build --base-href ./ && cp -R config dist/frontend && electron .",
     "start:electron:prod": "ng build --prod --base-href ./ && electron .",
     "build": "ng build",
     "build:prod": "ng build --prod",

@@ -24,5 +24,7 @@ jobs:
       - run: mkdir coverage
       - run: mv tests/coverage/lcov.info coverage/lcov.info
       - run: ./cc-test-reporter after-build -t lcov
-      - run: npx coveralls <./coverage/lcov.info
+      - name: Upload Coveralls statistics
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
       - run: echo "🍏 This job's status is ${{ job.status }}."

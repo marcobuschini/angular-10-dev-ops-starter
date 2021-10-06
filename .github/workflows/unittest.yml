@@ -4,7 +4,7 @@ jobs:
   unit-testing:
     runs-on: ubuntu-latest
     env:
-      - CC_TEST_REPORTER_ID=e6493f43e4d6ae0ee475e1d1fc984dd3a04056440c53c6ced46a50434c3b29e7
+      - CC_TEST_REPORTER_ID: e6493f43e4d6ae0ee475e1d1fc984dd3a04056440c53c6ced46a50434c3b29e7
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"

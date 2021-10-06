@@ -1,9 +1,5 @@
 name: Unit Testing
-on:
-  push:
-    branches: [$default-branch]
-  pull_request:
-    branches: [$default-branch]
+on: [push, pull_request]
 jobs:
   unit-testing:
     runs-on: ubuntu-latest
